@@ -21,4 +21,15 @@ Calendar anomalies are patterns associated with specific times of the calendar, 
 
 Day of the week anomalies refer to the tendency.
 
+# I was wrong.. 
+
+My advisor on this told said about my code, "This wont work since it checks if the signal and divergence happens at the same exact day. it needs to be converted to a scanner for a given tickers list then should be evaluated in backtest."
+
+So I need to:
+
+Accept a list of tickers.
+Scan each ticker for the presence of a buy or sell signal and divergence over the specified period.
+Collect the signals and divergences when they occur, not necessarily on the same day.
+Perform a backtest to evaluate the effectiveness of the signals.
+
 
