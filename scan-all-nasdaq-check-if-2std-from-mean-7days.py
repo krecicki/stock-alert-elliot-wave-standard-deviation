@@ -1,3 +1,13 @@
+/*
+This script will:
+Open the nasdaqlisted.txt file and read each line.
+Skip the header line that contains the column names.
+Split each line by the pipe symbol (|) and check if the sixth element (ETF column) is ‘N’ to filter out ETFs, assuming you’re only interested in common stocks.
+Add the ticker symbol to the tickers list.
+For each ticker in the list, it will download the last 7 days of closing prices using yfinance.
+It will then check if the last closing price is more than 2 standard deviations away from the mean and add it to the outliers list if it is.
+*/
+    
 import yfinance as yf
 import pandas as pd
 
