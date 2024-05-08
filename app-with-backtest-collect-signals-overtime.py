@@ -1,3 +1,4 @@
+## With list of tickers, singla collecting and backtesting. 
 import yfinance as yf
 import pandas as pd
 
@@ -68,7 +69,7 @@ def scan_tickers(tickers_list, period="1y", interval="1d"):
     return signals
 
 # Function to perform backtesting
-def backtest_signals(signals, initial_capital=10000):
+def backtest_signals(signals, initial_capital):
     capital = initial_capital
     for signal in signals:
         if signal['action'] == 'Buy':
@@ -79,6 +80,12 @@ def backtest_signals(signals, initial_capital=10000):
 
 # Example usage
 tickers_list = ["AAPL", "MSFT", "GOOGL"]  # Replace with your list of tickers
+initial_capital = 1000  # Initial capital
 signals = scan_tickers(tickers_list)
-final_capital = backtest_signals(signals)
-print(f"Final capital after backtesting: {final_capital}")
+final_capital = backtest_signals(signals, initial_capital)
+profitloss = final_capital - initial_capital
+
+# Print the results
+print(f"Tickers: {tickers_list}")
+#print(f"\n Signals: {signals}")
+print(f"\n Profit/Loss: ${profitloss}")
