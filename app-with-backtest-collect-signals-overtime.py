@@ -1,3 +1,9 @@
+'''
+This file is also incorrect and does not look back 7 days at the mean to see if a STD change has happene of -+2
+
+This file is for educational purposes of what not to do.
+'''
+
 ## With list of tickers, singla collecting and backtesting. 
 import yfinance as yf
 import pandas as pd
