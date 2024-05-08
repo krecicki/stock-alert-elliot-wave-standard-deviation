@@ -1,3 +1,9 @@
+'''
+This file is wrong and does not work because it does not check back 7 days for the mean to see if a STD change of -+2 has happned.
+
+This file is only for educational purposes of what not to do.
+'''
+
 import yfinance as yf
 import pandas as pd
 
