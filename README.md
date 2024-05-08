@@ -9,7 +9,7 @@ Using σ/+2σ standard deviations to notify when to buy, sell hold individual st
 This script will output the stock ticker’s current status regarding the -2σ/+2σ range based on a list of companies in the NASDAQ in a list of outliers.
 
 # Back story on this quant indicator 
-Someone on Twitter who does quant trading told me, "Asness says anything that has a price can be trend followed. at fundamental level buying from -2σ and selling over +2σ works well on commodities. you can combine it with EWO divergence, seasonality, calendar or day of the week anomalies etc. depending on your trading horizon."
+Someone on Twitter who does quant trading told me, "Asness says anything that has a price can be trend followed. at fundamental level buying from -2σ and selling over +2σ works well on commodities. you can combine it with seasonality, calendar or day of the week anomalies etc. depending on your trading horizon."
 
 Cliff Asness, a notable figure in finance, suggests that trend following can be applied to any asset that has a price. This is based on the idea that prices tend to move in trends over time, and these trends can be capitalized on through strategic buying and selling.
 
