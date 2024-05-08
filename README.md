@@ -17,3 +17,5 @@ Seasonality refers to predictable patterns that occur at certain times of the ye
 Calendar anomalies are patterns associated with specific times of the calendar, such as the weekend effect or the January effect, where stocks tend to perform differently during these periods.
 
 Day of the week anomalies refer to the tendency.
+
+
