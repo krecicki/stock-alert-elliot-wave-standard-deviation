@@ -34,4 +34,6 @@ Scan each ticker for the presence of a buy or sell signal and divergence over th
 Collect the signals and divergences when they occur, not necessarily on the same day.
 Perform a backtest to evaluate the effectiveness of the signals.
 
+# First ...
 
+I'll do this piece by piece. The script to find tickers -+2 standard deviation over their 7 day mean from the last closing price outputs a list of these tickers.
