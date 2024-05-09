@@ -19,3 +19,15 @@ Tickers more than 2σ below the mean (buy these):
 
 Tickers more than 2σ above the mean (sell these): 
 ['AENT', 'AFAR', 'AFJKU', 'ALPN', 'AMED', 'AOSL', 'APEI', 'ARKO', 'ASTI', 'ATER', 'BAYA', 'BAYAU', 'BLAC', 'BRLS', 'BRP', 'CCGWW', 'CCTG', 'CFBK', 'CFLT', 'CITE', 'CLOE', 'CLVR', 'CNSP', 'CODA', 'CRCT', 'CRUS', 'CSCO', 'DMTK', 'ERNA', 'FREE', 'FRLAW', 'FRSX', 'GAN', 'GATE', 'HAIAU', 'HCVI', 'HSII', 'IEP', 'IMAQU', 'IMNN', 'INGN', 'INOD', 'INTA', 'IRBT', 'ISPOW', 'ISUN', 'JVSAU', 'JZ', 'KTCC', 'LASE', 'LFWD', 'LGND', 'LIQT', 'LIXTW', 'LPRO', 'MINDP', 'MXCT', 'MYGN', 'NUKK', 'NVAC', 'OCEA', 'OXBR', 'PAYO', 'PCRX', 'PFTA', 'PLMI', 'PLMJ', 'POWI', 'PPSI', 'PPYA', 'PRLH', 'RDWR', 'REBN', 'REFR', 'RSSS', 'SATL', 'SCRMU', 'SEED', 'SENEB', 'SGC', 'SLNH', 'SNCR', 'SPNS', 'SQFTP', 'SSTI', 'SWIM', 'SWSS', 'SY', 'TH', 'THMO', 'TIGO', 'TIVC', 'YOSH', 'YS']
+
+Top 10 by Volume:
+CPOP: 56273872
+CTMX: 15732692
+NTBL: 7644933
+ABNB: 5316625
+TIVC: 5316430
+CDLX: 4191264
+CYN: 4027743
+BMBL: 2833685
+SEDG: 2483079
+GTHX: 2449504
