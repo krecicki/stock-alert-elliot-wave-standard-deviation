@@ -2,6 +2,7 @@
 https://colab.research.google.com/drive/1pceLs9xdsibCqw7rO2Uedh-owSQPEHrF?usp=sharing
 
 # The math behind the code
+<p align="center">
 ![ql_de77f9e6a81d2a66256f61a42231d4bd_l3](https://github.com/krecicki/stock-alert-standard-deviation-scanner/assets/42053642/9d0c8994-53e2-44b9-b828-1ea010d847c2)
 
 ![ql_fb71b24349110fcafe6864565d3b53be_l3](https://github.com/krecicki/stock-alert-standard-deviation-scanner/assets/42053642/44055927-50dd-4e8a-8325-3c9e1e2dc3a6)
@@ -9,7 +10,7 @@ https://colab.research.google.com/drive/1pceLs9xdsibCqw7rO2Uedh-owSQPEHrF?usp=sh
 ![ql_8c33340f20a2b2705f1c911adfdb649f_l3](https://github.com/krecicki/stock-alert-standard-deviation-scanner/assets/42053642/9bff8657-3e42-4036-aca5-74fc34f783ba)
 
 ![ql_746897a26285de696305a155858a23e4_l3](https://github.com/krecicki/stock-alert-standard-deviation-scanner/assets/42053642/a279c475-8aa9-444c-a7f8-6e3f887c8495)
-
+</p>
 
 # stock-alert-standard-deviation
 Using σ/+2σ standard deviations to notify when to buy, sell hold individual stock tickers.
