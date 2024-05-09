@@ -8,11 +8,12 @@ For each ticker in the list, it will download the last 7 days of closing prices 
 It will then check if the last closing price is more than 2 standard deviations away from the mean and add it to the outliers list if it is.
 The outliers list is then check for volumes, the top 10 tickers are listed.
 '''
-# Search over all tickers on NASDAQ list -+2 STD from mean 7 days ago, make 2 outlier lists -- go to ftp.nasdaqtrader.com and login anonymously 
+# Search over all tickers on NASDAQ list -+2 STD from mean 7 days ago, make 2 outlier lists -- go to ftp.nasdaqtrader.com and login anonymously
 import yfinance as yf
 import pandas as pd
 
-# Step 1: Parse the file to get the list of tickers
+'''
+# Step 1: Parse the file to get the list of tickers if using nasdaqlisted.txt
 tickers = []
 with open('nasdaqlisted.txt', 'r') as file:
     next(file)  # Skip the header line
@@ -20,6 +21,15 @@ with open('nasdaqlisted.txt', 'r') as file:
         split_line = line.strip().split('|')
         if split_line[6] == 'N':  # Filter out ETFs
             tickers.append(split_line[0])
+'''
+
+# Step 1b: Use this is using commiditieslist.txt
+tickers = []
+with open('commoditieslist.txt', 'r') as file:
+    next(file)  # Skip the header line
+    for line in file:
+        split_line = line.strip().split('|')
+        tickers.append(split_line[0])
 
 # Function to check if the price is -2σ or +2σ from the mean
 def check_outliers(prices):
@@ -75,3 +85,4 @@ top_10_volumes = sorted_volumes[:10]
 print("\nTop 10 by Volume:")
 for ticker, volume in top_10_volumes:
     print(f"{ticker}: {volume}")
+
